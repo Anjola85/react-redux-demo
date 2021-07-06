@@ -16,3 +16,9 @@ SELECTORS(USUALLY A SEPARATE FILE): return some state information from the redux
 #useSelector: Allows you to extract data from the Redux store state, using a selector function. The selector is approximately equivalent to the mapStateToProps argument to connect conceptually. The selector will be called with the entire Redux store state as its only argument. (link: https://react-redux.js.org/api/hooks)
 
 #useDispatch: This hook returns a reference to the dispatch function from the Redux store. You may use it to dispatch actions as needed.
+
+#REDUX-DEVTOOL-EXTENSION: Helps witrh debugging
+
+#axios: get request to API endpoints
+
+#redux-thunk: allow defining of asyn action creators
