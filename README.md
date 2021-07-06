@@ -12,3 +12,11 @@ Adds a change listener. It will be called any time an action is dispatched, and 
 SELECTORS(USUALLY A SEPARATE FILE): return some state information from the redux store
 
 #connect from 'react-redux': This connects react components to the redux store
+
+#REACT HOOKS - this gives function components the ability to use local component state, execute side effects and other React features without writing a class.
+
+----- #usedSelector - this is a hook that allows you to extract data from the Redux store state, using a selector function.
+EXPLANATION: The selector is approximately equivalent to the mapStateToProps argument to connect conceptually. The selector will be called with the entire Redux store state as its only argument. The selector will be run whenever the function component renders (unless its reference hasn't changed since a previous render of the component so that a cached result can be returned by the hook without re-running the selector). useSelector() will also subscribe to the Redux store, and run your selector whenever an action is dispatched.
+REASON: to get hold of any state that is maintained in the redux store, use SELECTOR HOOK.
+
+---- #useDispatch - this is a hook used to dispatch an act5ion with redux.
